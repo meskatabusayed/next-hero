@@ -1,9 +1,10 @@
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
+    console.log( "wwdw", params);
   return (
     <div>
-      Details
+      Details this
     </div>
   )
 }
